@@ -1,0 +1,26 @@
+html {
+    background-color: #d3eeff;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #cb0c0c;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+}
+
+#face {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+main {
+    clear: both;
+}
