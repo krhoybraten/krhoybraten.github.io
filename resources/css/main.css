@@ -9,7 +9,14 @@ h1 {
 
 header {
     background-color: #f0f0f0;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#me {
+    display: inline-flex;
+    align-items: center;
 }
 
 header h1, #face {
@@ -23,6 +30,10 @@ header h1, #face {
     width: 100px;
     height: 100px;
     margin-right: 10px;
+}
+
+.nav {
+    display: inline;
 }
 
 .navbar li {
