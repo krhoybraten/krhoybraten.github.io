@@ -46,6 +46,8 @@ header h1, #face {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-size: 1.25em;
+    transition-property: background-color;
+    transition-duration: 750ms;
 }
 
 #this_page {
